@@ -1,0 +1,84 @@
+2026-09-23T11:37:00,961 [main] INFO  (RestAssuredListners.java:25) - 
+ Method=>POST
+ URI=>https://restful-booker.herokuapp.com/booking
+ Request body=>{
+  "firstname" : "Akshay",
+  "lastname" : "Garud",
+  "totalprice" : 1000,
+  "depositpaid" : true,
+  "additionalneeds" : "Breakfast",
+  "bookingdates" : {
+    "checkin" : "2018-01-25",
+    "checkout" : "2018-01-30"
+  }
+}
+ Responce body=>{
+    "bookingid": 3065,
+    "booking": {
+        "firstname": "Akshay",
+        "lastname": "Garud",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-25",
+            "checkout": "2018-01-30"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+2026-09-23T11:37:02,606 [main] INFO  (RestAssuredListners.java:25) - 
+ Method=>POST
+ URI=>https://restful-booker.herokuapp.com/booking
+ Request body=>{
+  "firstname" : "Rohan",
+  "lastname" : "Garud",
+  "totalprice" : 1000,
+  "depositpaid" : true,
+  "additionalneeds" : "Breakfast",
+  "bookingdates" : {
+    "checkin" : "2018-01-25",
+    "checkout" : "2018-01-30"
+  }
+}
+ Responce body=>{
+    "bookingid": 3075,
+    "booking": {
+        "firstname": "Rohan",
+        "lastname": "Garud",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-25",
+            "checkout": "2018-01-30"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+2026-09-23T11:37:04,248 [main] INFO  (RestAssuredListners.java:25) - 
+ Method=>POST
+ URI=>https://restful-booker.herokuapp.com/booking
+ Request body=>{
+  "firstname" : "Kanchan",
+  "lastname" : "Garud",
+  "totalprice" : 1000,
+  "depositpaid" : true,
+  "additionalneeds" : "Breakfast",
+  "bookingdates" : {
+    "checkin" : "2018-01-25",
+    "checkout" : "2018-01-30"
+  }
+}
+ Responce body=>{
+    "bookingid": 3091,
+    "booking": {
+        "firstname": "Kanchan",
+        "lastname": "Garud",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-25",
+            "checkout": "2018-01-30"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
